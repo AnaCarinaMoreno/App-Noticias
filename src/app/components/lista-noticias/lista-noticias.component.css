@@ -1,0 +1,25 @@
+.tarjeta{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 40px; 
+    padding:40px;
+    justify-content:center; 
+    box-sizing: content-box;
+    width: 100%;
+  
+
+}
+.card-text{
+    max-height: 180px;
+}
+.card-img{
+    width: auto;
+    height: 200px; 
+}
+.noticia{
+    background-color: cyan;
+}
+
+
+
+

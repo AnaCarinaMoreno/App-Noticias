@@ -1,0 +1,13 @@
+<div class="tarjeta">
+    <div *ngFor= "let noticias of listNoticias"  class="col">
+        <div class="card">
+           <img [src]= "noticias.urlToImage" class="card-img" alt="noticias">
+           <div class="card-body">
+             <span class= "noticia">{{noticias.source.name}}</span>
+             <h5 class= "card-title">{{noticias.title}}</h5>
+             <p class="card-text">{{noticias.description}}</p>
+             <a target="_blank" [href]= "noticias.url" class="btn btn-lg btn-primary">Ver Noticias</a>
+            </div>
+      </div>
+    </div>    
+</div>
